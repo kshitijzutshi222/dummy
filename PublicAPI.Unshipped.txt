@@ -1,0 +1,6 @@
+Philips.iX.MicroserviceName.Client.ActorsRestClient
+Philips.iX.MicroserviceName.Client.ActorsRestClient.ActorsRestClient(System.Net.Http.HttpClient httpClient) -> void
+Philips.iX.MicroserviceName.Client.ActorsRestClient.AddActor(Philips.iX.MicroserviceName.DataModel.Actor actor) -> System.Threading.Tasks.Task
+Philips.iX.MicroserviceName.Client.ActorsRestClient.Dispose() -> void
+Philips.iX.MicroserviceName.Client.ActorsRestClient.GetActorsWithFirstName(string firstName) -> System.Threading.Tasks.Task<System.Collections.Generic.List<Philips.iX.MicroserviceName.DataModel.Actor>>
+virtual Philips.iX.MicroserviceName.Client.ActorsRestClient.Dispose(bool isCalledByUser) -> void
